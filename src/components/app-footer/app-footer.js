@@ -10,15 +10,14 @@ const AppFooter = () => {
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
         </div>
-
-        <div>
+        <div className='text-center'>
           <a href='https://t.me/moskalenko_developer' className='me-4 text-reset'>
             <i className='bi bi-telegram app-footer-icon'></i>
           </a>
           <a href='https://www.linkedin.com/in/oleksandr-moskalenko/' className='me-4 text-reset'>
             <i className='bi bi-linkedin app-footer-icon'></i>
           </a>
-          <a href='https://github.com/oleksandrmoskalenko' className='me-4 text-reset'>
+          <a href='https://github.com/oleksandrmoskalenko' className='text-reset'>
             <i className='bi bi-github app-footer-icon'></i>
           </a>
         </div>
