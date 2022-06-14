@@ -1,0 +1,32 @@
+.error-indicator {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ef1c2a;
+}
+
+.error-indicator img {
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+.error-indicator .error-text {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 575.98px) {
+  .error-indicator .error-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .error-indicator img {
+    width: 300px;
+  }
+
+  .error-indicator .error-text {
+    font-size: 1.3rem;
+  }
+}

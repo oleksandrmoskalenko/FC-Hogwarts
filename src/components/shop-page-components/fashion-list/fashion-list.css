@@ -1,0 +1,21 @@
+.fashion-list {
+  margin-top: 50px;
+  padding: 0;
+}
+
+.fashion-list-item {
+  list-style: none;
+  padding: 30px;
+}
+
+.fashion-list-item-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.fashion-list-item-img{
+  display: block;
+  align-self: center;
+  max-width: 50%;
+  height: auto;
+}

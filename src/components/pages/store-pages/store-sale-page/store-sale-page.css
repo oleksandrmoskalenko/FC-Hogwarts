@@ -1,0 +1,18 @@
+.store-sale-page-subtitle {
+  font-size: 32px;
+  text-align: center;
+  color: #ffd700;
+  /* color: #0057b7; */
+}
+
+@media (max-width: 575.98px) {
+  .store-sale-page-subtitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .store-sale-page-subtitle {
+    font-size: 20px;
+  }
+}

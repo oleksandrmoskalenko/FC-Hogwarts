@@ -1,0 +1,133 @@
+.home-page-scroll-bar-modal-photo {
+  max-width: 100%;
+}
+
+.home-page-scroll-bar-modal-accordion {
+  width: 100%;
+}
+
+.home-page-scroll-bar-modal-title {
+  font-size: 26px !important; 
+}
+
+.home-page-scroll-bar-modal-description {
+  font-size: 19px !important;
+  font-weight: 500 !important;
+  color: #000;
+}
+
+.home-page-scroll-bar-modal-arrow-prev {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: -50px;
+  transform: rotate(180deg);
+}
+
+.home-page-scroll-bar-modal-arrow-next {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: calc(50% - 20px);
+  right: -50px;
+}
+
+.home-page-scroll-bar-modal-arrow-prev:hover,
+.home-page-scroll-bar-modal-arrow-next:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 619.98px) {
+  .home-page-scroll-bar-modal-arrow-prev {
+    left: -30px;
+  }
+
+  .home-page-scroll-bar-modal-arrow-next {
+    right: -30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .home-page-scroll-bar-modal-title {
+    font-size: 22px !important; 
+  }
+
+  .home-page-scroll-bar-modal-text {
+    font-size: 14px !important;
+  }
+
+  .home-page-scroll-bar-modal-description {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #000;
+  }
+
+  .home-page-scroll-bar-modal-arrow-prev {
+    left: 20px;
+  }
+
+  .home-page-scroll-bar-modal-arrow-next {
+    right: 20px;
+  }
+}
+
+@media (max-width: 499.98px) {
+  .home-page-scroll-bar-modal-title {
+    font-size: 20px !important; 
+  }
+
+  .home-page-scroll-bar-modal-text {
+    font-size: 13px !important;
+  }
+
+  .home-page-scroll-bar-modal-description {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    color: #000;
+  }
+}
+
+@media (max-width: 424.98px) {
+  .home-page-scroll-bar-modal-title {
+    font-size: 18px !important; 
+  }
+
+  .home-page-scroll-bar-modal-text {
+    font-size: 12px !important;
+  }
+
+  .home-page-scroll-bar-modal-description {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #000;
+  }
+}
+
+@media (max-width: 374.98px) {
+  .home-page-scroll-bar-modal-arrow-prev {
+    width: 30px;
+    height: 30px;
+  }
+
+  .home-page-scroll-bar-modal-arrow-next {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 319.98px) {
+  .home-page-scroll-bar-modal-title {
+    font-size: 16px !important; 
+  }
+
+  .home-page-scroll-bar-modal-text {
+    font-size: 11px !important;
+  }
+
+  .home-page-scroll-bar-modal-description {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #000;
+  }
+}

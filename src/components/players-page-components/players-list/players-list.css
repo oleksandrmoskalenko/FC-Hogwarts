@@ -1,0 +1,31 @@
+.players-list-column {
+  width: 230px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.players-list-item {
+  max-height: 50px;
+  overflow: hidden;
+}
+
+@media (max-width: 991.98px) {
+  .players-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .players-list-item {
+    font-size: 12px!important;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .players-list-item {
+    font-size: 10px!important;
+    max-height: 40px;
+  }
+}

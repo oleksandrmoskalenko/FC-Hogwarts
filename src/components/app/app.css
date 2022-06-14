@@ -1,0 +1,45 @@
+.page-title {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.shopping-basket-modal-title {
+  margin-bottom: 0;
+}
+
+.nav-link {
+  font-family: "Nunito Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 600;
+  letter-spacing: 1;
+}
+
+
+.store-page-toast {
+  position: fixed;
+  left: 2%;
+  bottom: 2%;
+  text-align: center;
+}
+
+.store-page-toast-text {
+  font-size: 15px;
+  color: #fff;
+}
+
+@media (max-width: 399.98px) {
+  .shopping-cart-modal-btn {
+    width: 160px;
+    font-size: 13px;
+  }
+  
+  .shopping-cart-modal-btn__secondary {
+    width: 80px;
+  }
+
+  .store-page-toast {
+    width: 250px !important;
+  }
+  .store-page-toast-text {
+    font-size: 12px;
+  }
+}

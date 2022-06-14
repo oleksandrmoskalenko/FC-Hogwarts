@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+$dark: #272727;
+$light: #fbfbfb;
+
+$animation-speed-fast: 1s;
+$animation-speed-slow: 1.2s;
+
+.team-cards-list {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  & h1 {
+    color: $dark;
+  }
+
+  & h2 {
+    margin-top: 90%;
+    font-size: 1.05rem;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  & .price {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin: 20px;
+  }
+
+  & .player-card-overlay {
+    transform: perspective(1000px) translateY(0) translateZ(80px);
+    transition: transform $animation-speed-fast ease-in-out, opacity $animation-speed-slow ease;
+    pointer-events: none;
+    width: 100%;
+    perspective: inherit;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  & .reverse-side-container {
+    color: indianred;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    transform: perspective(1000px) rotateY(179deg) translateY(0) translateZ(80px);
+    opacity: 0;
+    z-index: -1;
+    transition: transform $animation-speed-fast ease-in-out, opacity $animation-speed-slow ease;
+    width: 100%;
+    height: 100%;
+  }
+
+  & .details-text {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px 10px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  & small {
+    font-size: .75rem;
+    font-weight: 100;
+    color: #858585;
+  }
+
+  & .fa-solid {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  & .back-h2 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  & b {
+    color: #000;
+  }
+}
+
+.player-card {
+  border-radius: 15px;
+  width: 230px;
+  height: 325px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+  perspective: 1000px;
+  transform: perspective(1000px) translateY(0);
+  transform-style: preserve-3d;
+  transition: transform $animation-speed-fast ease-in-out;
+  background: rgb(255, 215, 0);
+  background: linear-gradient(0deg, rgba(255, 215, 0, 1) 0%, rgba(0, 87, 183, 1) 100%);
+
+  &.dark {
+    background-color: $dark;
+    color: $light;
+  }
+
+  &.light {
+    background-color: $light;
+    color: $dark;
+  }
+}
+
+.team-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.player-card-wrapper {
+  margin: 20px 20px;
+
+  &:hover {
+    .player-card {
+      transform: rotateY(179deg);
+      z-index: 2;
+      cursor: pointer;
+
+      .player-card-overlay {
+        opacity: 0;
+        transform-style: preserve-3d;
+        z-index: 1;
+      }
+
+      .reverse-side-container {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.player-image-wrapper {
+  position: absolute;
+  top: 3.2rem;
+  left: 2.58rem;
+  height: 70%;
+  width: 80%;
+  overflow-y: hidden;
+}
+
+.player-image {
+  width: 80%;
+}

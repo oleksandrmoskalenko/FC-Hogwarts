@@ -1,0 +1,19 @@
+.search-panel {
+  width: 70%;
+  padding: 2px;
+  background: -webkit-linear-gradient(0deg, rgba(255, 215, 0, 1) 0%, rgba(0, 87, 183, 1) 100%);
+}
+
+@media (max-width: 991.98px) {
+  .search-panel {
+    margin-bottom: 35px;
+  }
+}
+
+.search-panel:hover {
+  background: transparent;
+}
+
+.search-input {
+  border-radius: 25px;
+}

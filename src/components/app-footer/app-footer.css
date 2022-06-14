@@ -1,0 +1,79 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css');
+
+.app-footer-subtitle {
+  font-size: 15px;
+}
+
+.app-footer-copyright {
+  margin: 0;
+}
+
+.app-footer-block-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.app-footer-info {
+  font-size: 16px;
+}
+
+.app-footer-info__text-small {
+  font-size: 15px;
+}
+
+.app-footer-icon:hover{
+  color: #000;
+}
+
+.app-footer-link:hover {
+  color: #000 !important;
+}
+
+@media (max-width: 1399.98px) {
+  .app-footer-info__text-small {
+    font-size: 12px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .app-footer-block {
+    text-align: center;
+  }
+
+  .app-footer-block-text {
+    text-align: justify;
+  }
+
+  .app-footer-info__text-small {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .app-footer-block-text {
+    text-align: center;
+  }
+}
+
+/* @media (max-width: 399.98px) {
+} */
+
+@media (max-width: 361.98px) {
+  .app-footer-info__text-small > .app-footer-info {
+    margin: 0 10px !important;
+  }
+
+  .app-footer-info__text-small {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 319.98px) {
+  .app-footer-block,
+  .app-footer-info{
+    font-size: 14px;
+  }
+}
+

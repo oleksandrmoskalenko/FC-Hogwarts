@@ -1,0 +1,112 @@
+.carousel-container {
+  text-align: center;
+
+  .swiper-container {
+    width: 100%;
+    height: 370px;
+
+    @media (max-width: 400px) {
+      height: 400px;
+    }
+
+    .swiper-slide {
+      height: 350px;
+      padding: 10px;
+      position: relative;
+      cursor: pointer;
+
+      @media (max-width: 400px) {
+        height: 380px;
+      }
+
+      img {
+        margin-top: 25px;
+        height: 200px;
+        object-fit: contain;
+      }
+
+      .swiper-slide-wrapper {
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        @media (max-width: 400px) {
+          height: 380px;
+        }
+
+        .swiper-slide-title {
+          position: absolute;
+          overflow-y: hidden;
+          padding: 0 40px;
+          top: 260px;
+          left: 0;
+          height: 87px;
+          font-size: 14px;
+          color: #000;
+          font-weight: 700;
+
+          @media (max-width: 400px) {
+            height: 120px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .swiper-nav-prev,
+  .swiper-nav-next {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .swiper-nav-prev {
+    top: calc(50% - 20px);
+  }
+
+  .swiper-nav-prev {
+    left: 10px;
+    background-image: url('./arrow-next.svg');
+    transform: rotate(180deg);
+  }
+
+  .swiper-nav-next {
+    right: 10px;
+    background-image: url('./arrow-next.svg');
+  }
+}
+
+// .swiper-button-next,
+// .swiper-button-prev {
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   background-position: center;
+// }
+
+// .swiper-button-prev::after,
+// .swiper-button-next::after {
+//   display: none
+// }
+
+// .swiper-button-prev {
+//   background-image: url('./arrow-prev.png');
+//   width: 40px;
+//   height: 40px;
+//   margin: -20px 0 0;
+// }
+
+// .swiper-button-next {
+//   background-image: url('./arrow-next.png');
+//   width: 40px;
+//   height: 40px;
+//   margin: -20px 0 0;
+// }

@@ -1,0 +1,13 @@
+.news-page-random-block {
+  text-align: center;
+}
+
+.news-page-button {
+  margin: 20px;
+  width: 225px;
+  filter: brightness(.75);
+}
+
+.news-page-button:hover {
+  filter: brightness(1);
+}

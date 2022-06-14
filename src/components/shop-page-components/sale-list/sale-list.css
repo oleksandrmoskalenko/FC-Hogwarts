@@ -1,0 +1,21 @@
+.sale-list {
+  margin-top: 50px;
+  padding: 0;
+}
+
+.sale-list-item {
+  list-style: none;
+  padding: 30px;
+}
+
+.sale-list-item-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.sale-list-item-img{
+  display: block;
+  align-self: center;
+  max-width: 50%;
+  height: auto;
+}

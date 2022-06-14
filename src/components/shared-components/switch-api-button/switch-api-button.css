@@ -1,0 +1,22 @@
+.switch-api-button-block {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.switch-api-button {
+  height: 60px;
+  color: #fff;
+  background: -webkit-linear-gradient(0deg, rgba(255, 215, 0, 1) 0%, rgba(0, 87, 183, 1) 100%);
+  border: none;
+  filter: brightness(.95);
+}
+
+.switch-api-button:hover {
+  filter: brightness(1.1);
+}
+
+@media (max-width: 767.98px) {
+  .switch-api-button-block {
+    display: none;
+  }
+}

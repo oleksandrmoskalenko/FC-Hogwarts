@@ -1,0 +1,31 @@
+.player-list-item-wrapper {
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-list-item-price {
+  text-decoration: line-through;
+  margin-top: 2px;
+}
+
+.player-list-item-discount {
+  border-radius: 45%;
+  padding: 3px 6px 0;
+  margin-left: 20px;
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.player-list-item-button {
+  margin: 20px;
+  width: 225px;
+  filter: brightness(.75);
+}
+
+.player-list-item-button:hover {
+  filter: brightness(1);
+}
