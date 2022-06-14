@@ -15,7 +15,7 @@ const AppFooter = () => {
           <a href='https://t.me/moskalenko_developer' className='me-4 text-reset'>
             <i className='bi bi-telegram app-footer-icon'></i>
           </a>
-          <a href='https://ua.linkedin.com' className='me-4 text-reset'>
+          <a href='https://www.linkedin.com/in/oleksandr-moskalenko/' className='me-4 text-reset'>
             <i className='bi bi-linkedin app-footer-icon'></i>
           </a>
           <a href='https://github.com/oleksandrmoskalenko' className='me-4 text-reset'>
