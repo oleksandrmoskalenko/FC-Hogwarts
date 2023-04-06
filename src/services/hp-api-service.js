@@ -1,6 +1,6 @@
 export default class HpApiService {
 
-  _apiBase = 'https://fedeperin-harry-potter-api-en.herokuapp.com';
+  _apiBase = 'https://harry-potter-api-en.onrender.com';
 
   getResource = async (url) => {
     const res = await fetch(`${this._apiBase}${url}`);
